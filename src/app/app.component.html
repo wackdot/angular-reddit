@@ -17,7 +17,7 @@
 
 <div class="ui grid posts">
   <app-article 
-    *ngFor="let init_article of articles"
+    *ngFor="let init_article of sortedArticles()"
     [article]="init_article"> 
   </app-article>
 </div>
